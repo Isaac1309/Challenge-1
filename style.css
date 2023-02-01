@@ -1,0 +1,102 @@
+header{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+body{
+    background:#F3F5FC;
+    width: 50%;
+}
+
+.div-main{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   margin-left: 30%;
+}
+
+.intext{
+    width: 578px;
+    height:48px;
+    left: 240px;
+    top: 168px;
+    margin-bottom: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border-color: #0A3871;
+    background:#F3F5FC;
+}
+
+#advise{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#b-encrypt{
+    padding: 24px; 
+    width: 230px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color:#FFFFFF;  
+}
+
+#b-decrypt{
+    padding: 24px; 
+    width: 230px;
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color:#0A3871;
+    margin-left: 50px;
+}
+
+.div-decrypt{
+    width: 400px;
+    height: 800px;
+    margin-left: 50%;
+    top: 40px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+}
+
+#img-decrypt{
+    width: 300px;
+    height: 300px;
+    margin: 10%;
+}
+
+#text-decrypt{
+    width: 380px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    border: none;
+    background-color: #FFFFFF;
+    margin-top: 10%;
+    margin-bottom: 50%;
+}
+
+#copy{
+    padding: 24px; 
+    width: 230px;
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color:#0A3871;
+    margin-top: 5%;
+    margin-left: 25%;
+}

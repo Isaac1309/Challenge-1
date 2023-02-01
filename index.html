@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="encryption.js"></script>
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/Alura.png">
+        </header>
+        <main>
+            <div class="div-main">
+                <div>
+                    <input type="text" placeholder="Ingresa el texto aqui" class="intext">
+                        <p id="advise"><img src="images/notMark.png"> Solo letras minúsculas y sin acentos</p>
+                        <div>
+                            <button type="button" id="b-encrypt" onclick=encrypt()>Encriptar</button>
+                            <button  type="button" id="b-decrypt" onclick=decrypt()>Desencriptar</button>
+                        </div>
+                </div>
+                <div class="div-decrypt">
+                    <img src="images/search.png" id="img-decrypt">
+                    <input type="text"  placeholder="Ingresa el texto que desees encriptar o desencriptar." id="text-decrypt" readonly>  
+                    <button type="button" id="copy" onclick=copy()>Copiar</button>
+                </div>      
+            </div>
+        </main>
+    </body>
+</html>
